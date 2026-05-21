@@ -3,9 +3,8 @@
 import requests
 import re
 import urllib.parse as urlparse
-from pip._vendor.distlib.compat import raw_input
 
-url = raw_input("enter URl in proper format(like - 'https://www.google.com'): ")   # use metasploitable mutillidae for testing
+url = input("Enter URL in proper format (e.g. 'https://www.google.com'): ")   # use metasploitable mutillidae for testing
 target_links = []
 
 
